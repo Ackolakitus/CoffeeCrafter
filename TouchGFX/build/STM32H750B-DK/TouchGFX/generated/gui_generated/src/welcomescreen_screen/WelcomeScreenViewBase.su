@@ -1,0 +1,54 @@
+Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
+Drawable.hpp:147:23:virtual touchgfx::Drawable* touchgfx::Drawable::getFirstChild()	0	static
+Drawable.hpp:315:18:virtual void touchgfx::Drawable::setX(int16_t)	0	static
+Drawable.hpp:327:18:virtual void touchgfx::Drawable::setY(int16_t)	0	static
+Drawable.hpp:356:18:virtual void touchgfx::Drawable::setWidth(int16_t)	0	static
+Drawable.hpp:368:18:virtual void touchgfx::Drawable::setHeight(int16_t)	0	static
+Drawable.hpp:378:18:virtual void touchgfx::Drawable::childGeometryChanged()	0	static
+Drawable.hpp:389:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	0	static
+Drawable.hpp:401:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	0	static
+Drawable.hpp:490:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	0	static
+Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
+Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
+Drawable.hpp:703:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
+Screen.hpp:93:18:virtual void touchgfx::Screen::setupScreen()	0	static
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	0	static
+Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+Image.hpp:118:18:virtual void touchgfx::Image::invalidateContent() const	8	static
+TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	0	static
+TextArea.hpp:48:18:virtual void touchgfx::TextArea::setWidth(int16_t)	32	static
+TextArea.hpp:54:18:virtual void touchgfx::TextArea::setHeight(int16_t)	32	static
+TextArea.hpp:60:18:virtual touchgfx::Rect touchgfx::TextArea::getSolidRect() const	0	static
+TextArea.hpp:89:18:virtual void touchgfx::TextArea::setAlpha(uint8_t)	0	static
+TextArea.hpp:127:18:virtual void touchgfx::TextArea::setXBaselineY(int16_t, int16_t)	16	static
+TextArea.hpp:391:41:virtual const UnicodeChar* touchgfx::TextArea::getWildcard1() const	0	static
+TextArea.hpp:403:41:virtual const UnicodeChar* touchgfx::TextArea::getWildcard2() const	0	static
+View.hpp:36:7:touchgfx::View<WelcomeScreenPresenter>::~View()	0	static
+WelcomeScreenViewBase.cpp:33:1:WelcomeScreenViewBase::~WelcomeScreenViewBase()	0	static
+WelcomeScreenViewBase.cpp:38:6:virtual void WelcomeScreenViewBase::setupScreen()	0	static
+FadeAnimator.hpp:41:7:touchgfx::FadeAnimator<touchgfx::TextArea>::~FadeAnimator()	0	static
+FadeAnimator.hpp:41:7:touchgfx::FadeAnimator<touchgfx::Image>::~FadeAnimator()	0	static
+ClickListener.hpp:33:7:touchgfx::ClickListener<touchgfx::Image>::~ClickListener()	0	static
+FadeAnimator.hpp:84:18:void touchgfx::FadeAnimator<T>::setFadeAnimationDelay(uint16_t) [with T = touchgfx::TextArea]	0	static
+FadeAnimator.hpp:96:22:uint16_t touchgfx::FadeAnimator<T>::getFadeAnimationDelay() const [with T = touchgfx::TextArea]	0	static
+FadeAnimator.hpp:84:18:void touchgfx::FadeAnimator<T>::setFadeAnimationDelay(uint16_t) [with T = touchgfx::Image]	0	static
+FadeAnimator.hpp:96:22:uint16_t touchgfx::FadeAnimator<T>::getFadeAnimationDelay() const [with T = touchgfx::Image]	0	static
+TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	8	static
+View.hpp:36:7:virtual touchgfx::View<WelcomeScreenPresenter>::~View()	8	static
+ClickListener.hpp:33:7:virtual touchgfx::ClickListener<touchgfx::Image>::~ClickListener()	8	static
+FadeAnimator.hpp:41:7:virtual touchgfx::FadeAnimator<touchgfx::Image>::~FadeAnimator()	8	static
+FadeAnimator.hpp:41:7:virtual touchgfx::FadeAnimator<touchgfx::TextArea>::~FadeAnimator()	8	static
+WelcomeScreenViewBase.cpp:33:1:virtual WelcomeScreenViewBase::~WelcomeScreenViewBase()	8	static
+TextArea.hpp:111:18:virtual void touchgfx::TextArea::setBaselineY(int16_t)	16	static
+WelcomeScreenViewBase.cpp:43:6:virtual void WelcomeScreenViewBase::goToScreen1()	8	static
+ClickListener.hpp:49:18:void touchgfx::ClickListener<T>::handleClickEvent(const touchgfx::ClickEvent&) [with T = touchgfx::Image]	16	static
+FadeAnimator.hpp:157:18:void touchgfx::FadeAnimator<T>::handleTickEvent() [with T = touchgfx::TextArea]	16	static
+FadeAnimator.hpp:157:18:void touchgfx::FadeAnimator<T>::handleTickEvent() [with T = touchgfx::Image]	16	static
+Drawable.hpp:48:5:touchgfx::Drawable::Drawable()	0	static
+Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
+Drawable.hpp:413:10:void touchgfx::Drawable::setWidthHeight(int16_t, int16_t)	16	static
+Image.hpp:50:5:touchgfx::Image::Image(const touchgfx::Bitmap&)	16	static
+WelcomeScreenViewBase.cpp:9:1:WelcomeScreenViewBase::WelcomeScreenViewBase()	72	static

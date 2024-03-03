@@ -1,0 +1,9 @@
+main.c:639:6:CoffeeTask	8	static
+main.c:673:6:StartDefaultTask	8	static
+coffee.h:37:6:makeCoffee	0	static
+coffee.h:42:6:checkAvailability	8	static
+main.c:651:6:MaintenanceTask	16	static
+main.c:227:6:SystemClock_Config	128	static
+main.c:121:5:main	128	static
+main.c:764:6:HAL_TIM_PeriodElapsedCallback	0	static
+main.c:781:6:Error_Handler	0	static

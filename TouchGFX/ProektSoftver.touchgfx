@@ -1,0 +1,515 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "WelcomeScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_480x272_spotlights.png",
+            "Clickable": true
+          },
+          {
+            "Type": "Image",
+            "Name": "logo",
+            "X": 107,
+            "Y": 68,
+            "Width": 120,
+            "Height": 120,
+            "LockPosition": true,
+            "RelativeFilename": "logo150.png",
+            "Alpha": 0,
+            "Fadeable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "name",
+            "X": 227,
+            "Y": 90,
+            "Width": 180,
+            "Height": 115,
+            "LockPosition": true,
+            "TextId": "__SingleUse_YBG8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 0,
+            "WideTextAction": 1,
+            "Fadeable": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "goToScreen1",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call WelcomeScreen goToScreen1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "goToScreen1"
+          }
+        ]
+      },
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_480x272_gradient_dark.png",
+            "Clickable": true
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "scrollWheel",
+            "X": 280,
+            "Width": 180,
+            "Height": 272,
+            "IsCircular": true,
+            "ItemTemplateName": "MenuElement",
+            "NumberofItems": 12,
+            "Easing": "Quint",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 5.0,
+            "DragAcceleration": 1.0
+          },
+          {
+            "Type": "TextArea",
+            "Name": "priceLabel",
+            "X": 40,
+            "Y": 30,
+            "Width": 41,
+            "Height": 21,
+            "TextId": "__SingleUse_EMQ9",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "typeLabel",
+            "X": 40,
+            "Y": 60,
+            "Width": 40,
+            "Height": 21,
+            "TextId": "__SingleUse_I5UR",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "intensityLabel",
+            "X": 40,
+            "Y": 90,
+            "Width": 77,
+            "Height": 21,
+            "TextId": "__SingleUse_YNNN",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "roastlevelLabel",
+            "X": 40,
+            "Y": 120,
+            "Width": 94,
+            "Height": 21,
+            "TextId": "__SingleUse_VL6B",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "price",
+            "X": 170,
+            "Y": 30,
+            "Width": 33,
+            "Height": 21,
+            "TextId": "__SingleUse_O3GB",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_7YIG",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "type",
+            "X": 170,
+            "Y": 60,
+            "Width": 44,
+            "Height": 21,
+            "TextId": "__SingleUse_TLWP",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_LBY8",
+              "UseBuffer": true,
+              "BufferSize": 8
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "intensity",
+            "X": 170,
+            "Y": 90,
+            "Width": 22,
+            "Height": 21,
+            "TextId": "__SingleUse_ZGCT",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_KT9T",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "roastlevel",
+            "X": 170,
+            "Y": 120,
+            "Width": 44,
+            "Height": 21,
+            "TextId": "__SingleUse_RDLM",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_U6NK",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "sugarLevelLabel",
+            "X": 40,
+            "Y": 150,
+            "Width": 60,
+            "Height": 24,
+            "TextId": "__SingleUse_UTCC",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Slider",
+            "Name": "slider",
+            "X": 37,
+            "Y": 180,
+            "Width": 232,
+            "Height": 32,
+            "IsHorizontalSlider": true,
+            "BackgroundUnselected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_track_small.png",
+            "BackgroundSelected": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_filler_small.png",
+            "Indicator": "__generated\\alternate_theme_images_widgets_slider_horizontal_thick_rounded_dark.png",
+            "BackgroundX": 16,
+            "BackgroundY": 11,
+            "IndicatorMax": 200,
+            "ValueMax": 300,
+            "Preset": "alternate_theme\\presets\\slider\\horizontal\\thick\\small_rounded_dark.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "sugarLevel",
+            "X": 170,
+            "Y": 150,
+            "Width": 39,
+            "Height": 24,
+            "TextId": "__SingleUse_0IC7",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_11WB",
+              "UseBuffer": true,
+              "BufferSize": 2
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "makeCoffeeButton",
+            "X": 84,
+            "Y": 220,
+            "Width": 138,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_small_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_small_round_normal.png",
+            "TextId": "__SingleUse_POCX",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\small_round_normal.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "moveSlider",
+            "Trigger": {
+              "Type": "TriggerSliderValueConfirmed",
+              "TriggerComponent": "slider"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Includes": "#include <algorithm>",
+              "Code": "int level = 0;\r\nif(value <= 45)\r\n    level = 0;\r\nif(45 < value && value <= 90)\r\n    level = 1;\r\nif(90 < value && value <= 150)\r\n    level = 2;\r\nif(150 < value && value <= 210)\r\n    level = 3;\r\nif(210 < value && value <= 255)\r\n    level = 4;\r\nif(value > 255)\r\n    level = 5;\r\n\r\npresenter->setSugarLevel(level);\r\nUnicode::snprintf(sugarLevelBuffer, 2, \"%d\", level);\r\n\r\nslider.setValue(level*60);\r\nsugarLevel.invalidate();\r\n"
+            }
+          },
+          {
+            "InteractionName": "clickButton",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "makeCoffeeButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "makeTheCoffee"
+            }
+          },
+          {
+            "InteractionName": "goToPrepairing",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen1 goToPrepairingScreen"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Prepairing"
+            }
+          },
+          {
+            "InteractionName": "timeout",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen1 goToWelcomeScreen"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "WelcomeScreen"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "goToPrepairingScreen"
+          },
+          {
+            "Name": "goToWelcomeScreen"
+          }
+        ]
+      },
+      {
+        "Name": "Prepairing",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_480x272_gradient_dark.png"
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "progressBar",
+            "X": 90,
+            "Y": 170,
+            "Width": 300,
+            "Height": 18,
+            "Color": {
+              "Red": 149,
+              "Green": 217,
+              "Blue": 219
+            },
+            "Direction": "Right",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_thick_medium.png",
+            "IndicatorPositionWidth": 300,
+            "IndicatorPositionHeight": 18,
+            "ProgressRangeMax": 300
+          },
+          {
+            "Type": "TextArea",
+            "Name": "process2",
+            "X": 30,
+            "Y": 88,
+            "Width": 420,
+            "Height": 55,
+            "TextId": "__SingleUse_HTC0",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_3134",
+              "UseBuffer": true,
+              "BufferSize": 40
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "process1",
+            "X": 30,
+            "Y": 33,
+            "Width": 420,
+            "Height": 55,
+            "TextId": "__SingleUse_WLKB",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_68PB",
+              "UseBuffer": true,
+              "BufferSize": 25
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "goToMenu",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Prepairing goToMainScreen"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "goToMainScreen"
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "MenuElement",
+        "Width": 180,
+        "Height": 272,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "icon",
+            "Y": 21,
+            "Width": 180,
+            "Height": 180,
+            "RelativeFilename": "risretto.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "text",
+            "Y": 202,
+            "Width": 180,
+            "Height": 49,
+            "TextId": "__SingleUse_IO92",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_A3VO",
+              "UseBuffer": true,
+              "BufferSize": 25
+            },
+            "WideTextAction": 1
+          },
+          {
+            "Type": "Image",
+            "Name": "x",
+            "X": 146,
+            "Y": 21,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "RelativeFilename": "output-onlinepngtools.png",
+            "Alpha": 200
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "ProektSoftver",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "WelcomeScreen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H750 Value line",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32H750B-DK.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.23.1",
+  "CreatedBy": "4.23.1"
+}

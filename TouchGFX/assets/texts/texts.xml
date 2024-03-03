@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.1">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_68PB" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_WLKB" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_3134" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Sugar</Translation>
+      </Text>
+      <Text Id="__SingleUse_HTC0" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_POCX" Alignment="Center" TypographyId="info">
+        <Translation Language="GB">Make coffee</Translation>
+      </Text>
+      <Text Id="__SingleUse_YBG8" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">Coffee Crafter</Translation>
+      </Text>
+      <Text Id="__SingleUse_11WB" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_0IC7" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_UTCC" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Sugar</Translation>
+      </Text>
+      <Text Id="__SingleUse_U6NK" Alignment="Left" TypographyId="info">
+        <Translation Language="GB">None</Translation>
+      </Text>
+      <Text Id="__SingleUse_KT9T" Alignment="Left" TypographyId="info">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_LBY8" Alignment="Left" TypographyId="info">
+        <Translation Language="GB">None</Translation>
+      </Text>
+      <Text Id="__SingleUse_7YIG" Alignment="Left" TypographyId="info">
+        <Translation Language="GB">000</Translation>
+      </Text>
+      <Text Id="__SingleUse_RDLM" Alignment="Left" TypographyId="info">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZGCT" Alignment="Left" TypographyId="info">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_TLWP" Alignment="Left" TypographyId="info">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_O3GB" Alignment="Left" TypographyId="info">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_VL6B" Alignment="Left" TypographyId="info">
+        <Translation Language="GB">Roast level</Translation>
+      </Text>
+      <Text Id="__SingleUse_YNNN" Alignment="Left" TypographyId="info">
+        <Translation Language="GB">Intensity</Translation>
+      </Text>
+      <Text Id="__SingleUse_I5UR" Alignment="Left" TypographyId="info">
+        <Translation Language="GB">Type</Translation>
+      </Text>
+      <Text Id="__SingleUse_EMQ9" Alignment="Left" TypographyId="info">
+        <Translation Language="GB">Price</Translation>
+      </Text>
+      <Text Id="__SingleUse_A3VO" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Risretto</Translation>
+      </Text>
+      <Text Id="__SingleUse_IO92" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="coffeeName" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Risretto</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9,A-Z,a-z,0x0d-0x7f" />
+    <Typography Id="Large" Font="NirmalaS.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9,A-Z,a-z,0x0d-0x7f" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9,A-Z,a-z,0x0d-0x7f" />
+    <Typography Id="info" Font="verdana.ttf" Size="17" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9,A-Z,a-z,0x0d-0x7f" />
+  </Typographies>
+</TextDatabase>

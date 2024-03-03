@@ -1,0 +1,5 @@
+WelcomeScreenPresenter.hpp:28:13:WelcomeScreenPresenter::~WelcomeScreenPresenter()	0	static
+WelcomeScreenPresenter.cpp:10:6:virtual void WelcomeScreenPresenter::activate()	0	static
+WelcomeScreenPresenter.hpp:28:13:virtual WelcomeScreenPresenter::~WelcomeScreenPresenter()	8	static
+WelcomeScreenPresenter.hpp:28:13:virtual void* WelcomeScreenPresenter::_ZThn4_N22WelcomeScreenPresenterD1Ev()	0	static
+WelcomeScreenPresenter.cpp:4:1:WelcomeScreenPresenter::WelcomeScreenPresenter(WelcomeScreenView&)	8	static
