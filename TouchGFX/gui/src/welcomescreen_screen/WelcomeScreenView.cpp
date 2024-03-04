@@ -24,7 +24,6 @@ void WelcomeScreenView::logoFadeAnimationEndedHandler(const touchgfx::FadeAnimat
 {
     if (&l == &logo)
     {
-        //Implement what should happen when fade animation on 'logo' has ended here.
         name.startFadeAnimation(255, 120, EasingEquations::linearEaseNone);
     }
 }
@@ -33,6 +32,6 @@ void WelcomeScreenView::imageClickHandler(const Image& i, const ClickEvent& evt)
 {
     if (&i == &background)
     {
-        goToScreen1();
+        goToMainScreen();
     }
 }

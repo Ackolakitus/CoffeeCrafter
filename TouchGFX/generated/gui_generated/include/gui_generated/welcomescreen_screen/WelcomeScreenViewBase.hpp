@@ -24,7 +24,7 @@ public:
     /*
      * Custom Actions
      */
-    virtual void goToScreen1();
+    virtual void goToMainScreen();
 
 protected:
     FrontendApplication& application() {

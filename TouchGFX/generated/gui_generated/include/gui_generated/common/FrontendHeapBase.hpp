@@ -16,8 +16,8 @@
 
 #include <gui/welcomescreen_screen/WelcomeScreenView.hpp>
 #include <gui/welcomescreen_screen/WelcomeScreenPresenter.hpp>
-#include <gui/screen1_screen/Screen1View.hpp>
-#include <gui/screen1_screen/Screen1Presenter.hpp>
+#include <gui/mainscreen_screen/MainScreenView.hpp>
+#include <gui/mainscreen_screen/MainScreenPresenter.hpp>
 #include <gui/prepairing_screen/PrepairingView.hpp>
 #include <gui/prepairing_screen/PrepairingPresenter.hpp>
 
@@ -43,7 +43,7 @@ public:
      * @note All view types used in the application MUST be added to this list!
      */
     typedef touchgfx::meta::TypeList< WelcomeScreenView,
-            touchgfx::meta::TypeList< Screen1View,
+            touchgfx::meta::TypeList< MainScreenView,
             touchgfx::meta::TypeList< PrepairingView,
             touchgfx::meta::Nil > >
             > GeneratedViewTypes;
@@ -58,7 +58,7 @@ public:
      * @note All presenter types used in the application MUST be added to this list!
      */
     typedef touchgfx::meta::TypeList< WelcomeScreenPresenter,
-            touchgfx::meta::TypeList< Screen1Presenter,
+            touchgfx::meta::TypeList< MainScreenPresenter,
             touchgfx::meta::TypeList< PrepairingPresenter,
             touchgfx::meta::Nil > >
             > GeneratedPresenterTypes;

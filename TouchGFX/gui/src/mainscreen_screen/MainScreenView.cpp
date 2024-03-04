@@ -1,23 +1,22 @@
-#include <gui/screen1_screen/Screen1View.hpp>
+#include <gui/mainscreen_screen/MainScreenView.hpp>
 
-Screen1View::Screen1View():imageClickedCallback(this, &Screen1View::imageClickHandler)
+MainScreenView::MainScreenView():imageClickedCallback(this, &MainScreenView::imageClickHandler)
 {
-    tickCounter=0;
- }
+    tickCounter = 0;
+}
 
-void Screen1View::setupScreen()
+void MainScreenView::setupScreen()
 {
-    Screen1ViewBase::setupScreen();
+    MainScreenViewBase::setupScreen();
     background.setClickAction(imageClickedCallback);
-    
 }
 
-void Screen1View::tearDownScreen()
+void MainScreenView::tearDownScreen()
 {
-    Screen1ViewBase::tearDownScreen();
+    MainScreenViewBase::tearDownScreen();
 }
 
-void Screen1View::scrollWheelUpdateItem(MenuElement &item, int16_t itemIndex)
+void MainScreenView::scrollWheelUpdateItem(MenuElement &item, int16_t itemIndex)
 {
     bool enabled = presenter->getIsCoffeeEnabled(itemIndex);
     item.setNumber(itemIndex, enabled);
@@ -51,7 +50,7 @@ void Screen1View::scrollWheelUpdateItem(MenuElement &item, int16_t itemIndex)
     tickCounter=0;
 }
 
-void Screen1View::makeTheCoffee()
+void MainScreenView::makeTheCoffee()
 {
     int index = scrollWheel.getSelectedItem();
     bool enabled = presenter->getIsCoffeeEnabled(index);
@@ -60,7 +59,7 @@ void Screen1View::makeTheCoffee()
     return;    
 }
 
-void Screen1View::imageClickHandler(const Image& i, const ClickEvent& evt)
+void MainScreenView::imageClickHandler(const Image& i, const ClickEvent& evt)
 {
     if (&i == &background)
     {
@@ -68,7 +67,7 @@ void Screen1View::imageClickHandler(const Image& i, const ClickEvent& evt)
     }
 }
 
-void Screen1View::handleTickEvent()
+void MainScreenView::handleTickEvent()
 {
     //60Hz=60ticks/s
     if (tickCounter == 900)

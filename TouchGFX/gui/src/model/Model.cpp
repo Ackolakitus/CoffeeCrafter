@@ -1,6 +1,5 @@
 #include <gui/model/Model.hpp>
 #include <gui/model/ModelListener.hpp>
-
 #include "FreeRTOS.h"
 #include "queue.h"
 #include "task.h"

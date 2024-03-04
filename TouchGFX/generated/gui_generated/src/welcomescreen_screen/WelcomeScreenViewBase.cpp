@@ -40,10 +40,10 @@ void WelcomeScreenViewBase::setupScreen()
 
 }
 
-void WelcomeScreenViewBase::goToScreen1()
+void WelcomeScreenViewBase::goToMainScreen()
 {
-    //goToScreen1
-    //When goToScreen1 is called change screen to Screen1
-    //Go to Screen1 with screen transition towards East
-    application().gotoScreen1ScreenSlideTransitionEast();
+    //goToMainScreen
+    //When goToMainScreen is called change screen to MainScreen
+    //Go to MainScreen with screen transition towards East
+    application().gotoMainScreenScreenSlideTransitionEast();
 }

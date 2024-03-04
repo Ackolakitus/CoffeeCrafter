@@ -43,7 +43,7 @@ FadeAnimator.hpp:41:7:virtual touchgfx::FadeAnimator<touchgfx::Image>::~FadeAnim
 FadeAnimator.hpp:41:7:virtual touchgfx::FadeAnimator<touchgfx::TextArea>::~FadeAnimator()	8	static
 WelcomeScreenViewBase.cpp:33:1:virtual WelcomeScreenViewBase::~WelcomeScreenViewBase()	8	static
 TextArea.hpp:111:18:virtual void touchgfx::TextArea::setBaselineY(int16_t)	16	static
-WelcomeScreenViewBase.cpp:43:6:virtual void WelcomeScreenViewBase::goToScreen1()	8	static
+WelcomeScreenViewBase.cpp:43:6:virtual void WelcomeScreenViewBase::goToMainScreen()	8	static
 ClickListener.hpp:49:18:void touchgfx::ClickListener<T>::handleClickEvent(const touchgfx::ClickEvent&) [with T = touchgfx::Image]	16	static
 FadeAnimator.hpp:157:18:void touchgfx::FadeAnimator<T>::handleTickEvent() [with T = touchgfx::TextArea]	16	static
 FadeAnimator.hpp:157:18:void touchgfx::FadeAnimator<T>::handleTickEvent() [with T = touchgfx::Image]	16	static

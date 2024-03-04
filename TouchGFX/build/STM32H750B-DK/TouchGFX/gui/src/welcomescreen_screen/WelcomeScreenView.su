@@ -12,7 +12,7 @@ Callback.hpp:357:8:virtual touchgfx::Callback<WelcomeScreenView, const touchgfx:
 Callback.hpp:290:8:virtual touchgfx::Callback<WelcomeScreenView, const touchgfx::Image&, const touchgfx::ClickEvent&>::~Callback()	8	static
 WelcomeScreenView.hpp:11:13:WelcomeScreenView::~WelcomeScreenView()	8	static
 WelcomeScreenView.hpp:11:13:virtual WelcomeScreenView::~WelcomeScreenView()	8	static
-WelcomeScreenView.cpp:32:6:void WelcomeScreenView::imageClickHandler(const touchgfx::Image&, const touchgfx::ClickEvent&)	0	static
+WelcomeScreenView.cpp:31:6:void WelcomeScreenView::imageClickHandler(const touchgfx::Image&, const touchgfx::ClickEvent&)	0	static
 Image.hpp:118:18:virtual void touchgfx::Image::invalidateContent() const	0	static
 WelcomeScreenView.cpp:3:1:WelcomeScreenView::WelcomeScreenView()	8	static
 WelcomeScreenView.cpp:7:6:virtual void WelcomeScreenView::setupScreen()	16	static

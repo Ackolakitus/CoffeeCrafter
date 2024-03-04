@@ -55,7 +55,7 @@ void PrepairingViewBase::setupScreen()
 void PrepairingViewBase::goToMainScreen()
 {
     //goToMenu
-    //When goToMainScreen is called change screen to Screen1
-    //Go to Screen1 with screen transition towards West
-    application().gotoScreen1ScreenSlideTransitionWest();
+    //When goToMainScreen is called change screen to MainScreen
+    //Go to MainScreen with screen transition towards West
+    application().gotoMainScreenScreenSlideTransitionWest();
 }

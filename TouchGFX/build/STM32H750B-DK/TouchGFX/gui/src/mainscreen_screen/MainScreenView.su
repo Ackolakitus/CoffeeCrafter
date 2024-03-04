@@ -1,0 +1,16 @@
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+MainScreenView.cpp:14:6:virtual void MainScreenView::tearDownScreen()	0	static
+MainScreenView.cpp:62:6:void MainScreenView::imageClickHandler(const touchgfx::Image&, const touchgfx::ClickEvent&)	0	static
+Callback.hpp:290:8:touchgfx::Callback<MainScreenView, const touchgfx::Image&, const touchgfx::ClickEvent&>::~Callback()	0	static
+Callback.hpp:318:18:void touchgfx::Callback<dest_type, T1, T2, void>::execute(T1, T2) [with dest_type = MainScreenView; T1 = const touchgfx::Image&; T2 = const touchgfx::ClickEvent&]	12	static
+Callback.hpp:328:18:bool touchgfx::Callback<dest_type, T1, T2, void>::isValid() const [with dest_type = MainScreenView; T1 = const touchgfx::Image&; T2 = const touchgfx::ClickEvent&]	0	static
+Callback.hpp:290:8:virtual touchgfx::Callback<MainScreenView, const touchgfx::Image&, const touchgfx::ClickEvent&>::~Callback()	8	static
+MainScreenView.hpp:11:13:MainScreenView::~MainScreenView()	8	static
+MainScreenView.hpp:11:13:virtual MainScreenView::~MainScreenView()	8	static
+MainScreenView.cpp:70:6:virtual void MainScreenView::handleTickEvent()	8	static
+MainScreenView.cpp:53:6:virtual void MainScreenView::makeTheCoffee()	8	static
+MainScreenView.cpp:3:1:MainScreenView::MainScreenView()	8	static
+MainScreenView.cpp:8:6:virtual void MainScreenView::setupScreen()	8	static
+MenuElement.hpp:15:10:void MenuElement::setNumber(int16_t, bool)	32	static
+MainScreenView.cpp:19:6:virtual void MainScreenView::scrollWheelUpdateItem(MenuElement&, int16_t)	48	static

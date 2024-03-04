@@ -23,10 +23,10 @@ public:
     // WelcomeScreen
     void gotoWelcomeScreenScreenNoTransition();
 
-    // Screen1
-    void gotoScreen1ScreenSlideTransitionEast();
+    // MainScreen
+    void gotoMainScreenScreenSlideTransitionEast();
 
-    void gotoScreen1ScreenSlideTransitionWest();
+    void gotoMainScreenScreenSlideTransitionWest();
 
     // Prepairing
     void gotoPrepairingScreenSlideTransitionEast();
@@ -39,10 +39,10 @@ protected:
     // WelcomeScreen
     void gotoWelcomeScreenScreenNoTransitionImpl();
 
-    // Screen1
-    void gotoScreen1ScreenSlideTransitionEastImpl();
+    // MainScreen
+    void gotoMainScreenScreenSlideTransitionEastImpl();
 
-    void gotoScreen1ScreenSlideTransitionWestImpl();
+    void gotoMainScreenScreenSlideTransitionWestImpl();
 
     // Prepairing
     void gotoPrepairingScreenSlideTransitionEastImpl();

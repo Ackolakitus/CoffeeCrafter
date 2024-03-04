@@ -47,27 +47,27 @@
         ],
         "Interactions": [
           {
-            "InteractionName": "goToScreen1",
+            "InteractionName": "goToMainScreen",
             "Trigger": {
               "Type": "TriggerWhen",
-              "ActionCustomTypeName": "Call WelcomeScreen goToScreen1"
+              "ActionCustomTypeName": "Call WelcomeScreen goToMainScreen"
             },
             "Action": {
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionSlide",
               "ScreenTransitionDirection": "East",
-              "ActionComponent": "Screen1"
+              "ActionComponent": "MainScreen"
             }
           }
         ],
         "CustomActions": [
           {
-            "Name": "goToScreen1"
+            "Name": "goToMainScreen"
           }
         ]
       },
       {
-        "Name": "Screen1",
+        "Name": "MainScreen",
         "Components": [
           {
             "Type": "Image",
@@ -295,7 +295,7 @@
             "InteractionName": "goToPrepairing",
             "Trigger": {
               "Type": "TriggerWhen",
-              "ActionCustomTypeName": "Call Screen1 goToPrepairingScreen"
+              "ActionCustomTypeName": "Call MainScreen goToPrepairingScreen"
             },
             "Action": {
               "Type": "ActionGotoScreen",
@@ -308,7 +308,7 @@
             "InteractionName": "timeout",
             "Trigger": {
               "Type": "TriggerWhen",
-              "ActionCustomTypeName": "Call Screen1 goToWelcomeScreen"
+              "ActionCustomTypeName": "Call MainScreen goToWelcomeScreen"
             },
             "Action": {
               "Type": "ActionGotoScreen",
@@ -397,7 +397,7 @@
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionSlide",
               "ScreenTransitionDirection": "West",
-              "ActionComponent": "Screen1"
+              "ActionComponent": "MainScreen"
             }
           }
         ],
